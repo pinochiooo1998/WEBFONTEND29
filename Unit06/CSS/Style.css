@@ -1,0 +1,353 @@
+*{
+    		margin: 0px;
+    		padding: 0px;
+    	}
+    	#header{
+    		width: 800px;
+    		height: 100px;
+    		background: #f2f7f4;
+    		margin: auto;
+    		
+    	}
+    	#header ul li{
+    		list-style: none;
+    		float: left;
+    		width: 160px;
+    		line-height: 100px;
+    		text-align: center;
+
+    	}
+         #header ul li a{
+    		text-decoration: none;
+    		color: black;
+        font-weight: bold;
+    	}
+    	#font a{
+           color: grey!important;
+    	}
+      #font a:hover{
+        color: blue!important;
+      }
+        #banner{
+        	width: 800px;
+        	margin: auto;
+        	height: 750px;
+        	background: #d3e3d7;
+        }
+        #banner1 p{
+        	padding-top: 120px;
+        	text-align: center;
+        	color: #2ac9a7;
+        	font-size: 34px;
+        	font-weight: bold;  
+        }
+       #Anh a:hover, #header a:hover,#Anh p:hover{
+          color: blue;
+        }
+      #banner h4{
+        	text-align: center;
+          padding-top: 20px;
+        }
+       #Anh img{
+          width: 200px;
+          height: 100px;
+          border: solid 3px white;
+        }
+         #Anh>ul>li{
+          float: left;
+          padding-left: 47px;
+          padding-top:30px;
+          list-style: none;
+          padding-bottom: 20px;
+         }
+          
+         #Anh a{
+          color: black;
+          text-decoration: none;
+         }
+         .fontAnh {
+          color: #2ac9a7;
+          font-weight: bold;
+         }
+         
+         #Anh>h4{
+          padding-top: 20px;
+         }
+         #infor{
+          width: 800px;
+          height: 330px;
+          margin: auto;
+
+         }
+         #inforleft{
+          width: 550px;
+          position: relative;
+          float: left;
+         }
+         #inforleft p{
+          padding-bottom: 10px;
+          padding-left: 40px
+         }
+         #fontAbout{
+          font-size: 30px;
+          color: #2ac9a7;
+          padding-top: 20px;
+         }
+         #inforright{
+          width: 250px;
+          position: absolute;
+          float: left;
+          padding-left: 600px;
+          padding-top: 0px;
+         }
+        #icon{
+          padding-top: 10px;
+
+
+        }
+        #icon>ul>li{
+          float: left;list-style: none;
+          padding-right: 30px;
+        }
+         #icon>ul>li a{
+           text-decoration: none;
+           color: #2ac9a7;
+           font-size: 30px;
+     }
+     #footer{
+      height: 400px;
+      width: 800px;
+      background: #66acba;
+      margin:auto;
+      padding-top: 20px
+     }
+     #footer>ul>li{
+      padding-left: 40px;
+      list-style: none;
+      color: white;
+
+     }
+     #Sayhello{
+      padding-right: 500px;
+      font-size: 30px;
+     }
+    
+     #footer input#input{
+      width: 700px;
+     }
+     #footer #textarea{
+      width: 700px;
+      height: 80px
+     }
+     
+     @media all and (max-width: 700px) {
+   body {
+      
+      }
+      #header{
+        width: 700px;
+        height: 100px;
+        
+        margin: auto;
+        
+      }
+      #header ul li{
+        list-style: none;
+        float: left;
+        width: 130px;
+        line-height: 100px;
+        text-align: center;}
+        #header img{
+          width: 150px;
+          height: 150px;
+        }
+      
+        #banner{
+          width: 700px;
+          margin: auto;
+          height: 1100px;
+          background: #d3e3d7;
+        }
+        #banner1 p{
+          padding-top: 100px;
+          text-align: center;
+          color: #2ac9a7;
+          font-size: 34px;
+          font-weight: bold;  
+        }
+         #banner h4{
+          text-align: center;
+          padding-top: 20px;
+        }
+       #Anh img{
+          width: 250px;
+          height: 150px;
+          border: solid 3px white;
+        }
+         #Anh>ul>li{
+          float: left;
+          padding-left: 45px;
+          padding-top:30px;
+          list-style: none;
+          padding-bottom: 20px;
+         }
+         #infor{
+          width: 700px;
+          height: 500px;
+          margin: auto;
+
+         }
+         #inforleft{
+          width: 80%;
+          position: relative;
+          float: left;
+         }
+         #inforleft p{
+          padding-bottom: 10px;
+          padding-left: 100px
+         }
+         #fontAbout{
+          font-size: 30px;
+          color: #2ac9a7;
+          padding-top: 20px;
+         }
+         #inforright{
+          width: 250px;
+          position: absolute;
+          float: right;
+         }
+        #icon{
+          padding-top: 10px;}
+    #footer{
+      height: 400px;
+      width: 700px;
+      background: #66acba;
+      margin:auto;
+      padding-top: 30px
+     }
+     #footer>ul>li{
+      padding-left: 100px;
+      list-style: none;
+      color: white;
+
+     }
+     #Sayhello{
+      padding-right: 400px;
+      font-size: 30px;
+   }
+     #footer input#input{
+      width: 450px;
+     }
+     #footer #textarea{
+      width: 450px;
+      height: 80px
+     }
+ }
+
+ @media all and (max-width: 480px) {
+   body { 
+      }
+       #header{
+        width: 480px;
+        height: 100px;
+        
+        margin: auto;
+        
+      }
+      #header ul li{
+        list-style: none;
+        float: left;
+        width: 450px;
+        line-height: 100px;
+        text-align: center;
+      }
+        #header img{
+          width: 150px;
+          height: 150px;
+        }
+        #banner{
+          width: 480px;
+          margin: auto;
+          height: 2200px;
+          background: #d3e3d7;}
+        #banner1 p{
+          padding-top: 100px;
+          text-align: center;
+          color: #2ac9a7;
+          font-size: 34px;
+          font-weight: bold;  
+        }
+         #banner h4{
+          text-align: center;
+          padding-top: 20px;
+        }
+              #Anh img{
+          width: 350px;
+          height: 200px;
+          border: solid 3px white;
+        }
+         #Anh>ul>li{
+          float: left;
+          padding-left: 50px;
+          padding-top:30px;
+          list-style: none;
+          padding-bottom: 20px;
+         }
+         #infor{
+          width: 480px;
+          height: 500px;
+          margin: auto;
+
+         }
+         #inforleft{
+          width: 90%;
+          position: relative;
+          float: left;
+         }
+         #inforleft p{
+          padding-bottom: 10px;
+          padding-left: 50px
+         }
+         #fontAbout{
+          font-size: 30px;
+          color: #2ac9a7;
+          padding-top: 20px;
+         }
+         #inforright{
+          width: 250px;
+          position: absolute;
+          float: right;
+       ;
+         }
+        #icon{
+          padding-top: 10px;}
+    #footer{
+      height: 400px;
+      width: 480px;
+      background: #66acba;
+      margin:auto;
+      padding-top: 30px
+     }
+     #footer>ul>li{
+      padding-left: 50px;
+      list-style: none;
+      color: white;
+
+     }
+     #Sayhello{
+      padding-right: 300px;
+      font-size: 30px;
+   }
+     #footer input#input{
+      width: 350px;
+     }
+     #footer #textarea{
+      width: 350px;
+      height: 80px
+     }
+       .menu{
+        display: none;
+       }  
+
+
+    }
