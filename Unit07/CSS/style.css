@@ -115,8 +115,8 @@ a{
 }
 #iconcv p{
 	width: 20%;
-	border: solid blue 0px;
-	background-color: blue;
+	border: solid #265dc9 0px;
+	background-color: #265dc9;
 	border-radius: 15px 15px;
     height: 30px;
     line-height: 30px;
@@ -194,7 +194,7 @@ a{
 }
 
 #bg1{
-	background-color: blue;
+	background-color: #265dc9;
 	height: 7px;
 	width: 23%;
 	position: absolute;
@@ -208,35 +208,35 @@ a{
 	border-radius: 20px 20px;
 	opacity: 0.3;}
 #bg3{
-	background-color: blue;
+	background-color: #265dc9;
 	height: 7px;
 	width: 21%;
 	position: absolute;
 	border-radius: 20px 20px;
 }
 #bg4{
-	background-color: blue;
+	background-color: #265dc9;
 	height: 7px;
 	width: 22%;
 	position: absolute;
 	border-radius: 20px 20px;	
 }
 #bg5{
-	background-color: blue;
+	background-color: #265dc9;
 	height: 7px;
 	width: 20%;
 	position: absolute;
 	border-radius: 20px 20px;	
 }
 #bg6{
-	background-color: blue;
+	background-color: #265dc9;
 	height: 7px;
 	width: 19%;
 	position: absolute;
 	border-radius: 20px 20px;	
 }
 #bg7{
-	background-color: blue;
+	background-color: #265dc9;
 	height: 7px;
 	width: 21%;
 	position: absolute;
@@ -307,7 +307,7 @@ a{
 
 }.box-border{
 	width: 22%;
-	border:2px dotted blue;
+	border:2px dotted #265dc9;
 	height: 150px;
 	text-align: center;
 	margin-top: 5%;
@@ -329,7 +329,7 @@ a{
 }
 .box-border1{
 	width: 22%;
-	border:2px dotted blue;
+	border:2px dotted #265dc9;
 	height: 150px;
 	text-align: center;
 	margin-top: 5%;
@@ -338,7 +338,7 @@ a{
 }
 .box-border2{
 	width: 22%;
-	border:2px dotted blue;
+	border:2px dotted #265dc9;
 	height: 150px;
 	text-align: center;
 	margin-top: 5%;
@@ -347,7 +347,7 @@ a{
 }
 .box-border3{
 	width: 22%;
-	border:2px dotted blue;
+	border:2px dotted #265dc9;
 	height: 150px;
 	text-align: center;
 	margin-top: 5%;
@@ -380,7 +380,7 @@ a{
 	text-align: center;
 	width: 13%;
 	height: 25px;
-	border: solid 1px blue;
+	border: solid 1px #265dc9;
 	background-color:white;
 	border-radius: 20px 20px;
 	float: left;
@@ -630,7 +630,7 @@ padding-top: 5%
 #sendmassage {
 	width: 15%;
 	border: solid blue 0px;
-	background-color: blue;
+	background-color: #265dc9;
 	border-radius: 20px 20px;
     font-size: 14px;
     font-weight: bold;
@@ -643,7 +643,7 @@ padding-top: 5%
 }
 #iconfooter p{
     font-size: 22px;
-    color: blue;
+    color: #265dc9;
     padding-right: 1%
 }
 #iconfooter i{
