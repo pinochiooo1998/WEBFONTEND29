@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex01</title>
+</head>
+<body>
+	<p id="thep" class="cls_thep">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut, deserunt quasi eius, vitae unde nam. Soluta aliquam at alias accusamus nemo?</p>
+	<p id="thep2" class="cls_thep">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nulla eius repellat asperiores porro blanditiis, maiores beatae sit sunt laudantium, vero minus? Vel omnis ea cumque, sit earum delectus modi.</p>
+	<p>Hello</p>
+	<script type="text/javascript">
+		console.log(document.getElementById('thep'));
+		console.log(document.getElementsByClassName('cls_thep'));
+		console.log(document.getElementsByTagName('p'));
+      console.log(document.getElementById('thep').innerHTML);
+      var thep = document.getElementById('thep');
+      thep.innerHTML="Thay doi the p1";
+      var thep2 = document.getElementsByClassName('cls_thep')[1];
+      thep2.innerHTML="Thay doi the p2";
+      var thep3 = document.getElementsByTagName('p')[2];
+      thep3.innerHTML="Thay doi the p3"
+	</script>
+</body>
+</html>

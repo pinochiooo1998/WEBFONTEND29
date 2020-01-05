@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 3</title>
+</head>
+<body>
+    <button  onclick="default1()">Mặc định</button>
+    <button  onclick="bigger()">Lớn</button>
+    <button  onclick="smaller()">Nhỏ</button>
+       <div id="target" style="font-size: 16px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt <br>nam sed, accusamus alias incidunt, repellendus sint. Expedita corporis <br>officiis amet omnis facere labore alias, odio veniam dicta suscipit ipsum assumenda.</div>
+       <script type="text/javascript">
+           var count = 0;
+           function default1() {
+               var t = document.getElementById('target');
+               t.style.fontSize = "16px"; 
+           }
+           function bigger(){
+                count++;
+                var t = document.getElementById('target');
+                    if (count==1) {
+                         t.style.fontSize = "16px"; 
+                    }
+                var s = parseInt(t.style.fontSize.replace("px",""))*1.4;
+                    t.style.fontSize = s+"px";
+            }
+           function smaller(){
+                count++;
+                var t = document.getElementById('target');
+                    if (count==1) {
+                         t.style.fontSize = "16px"; 
+                    } 
+                var s = parseInt(t.style.fontSize.replace("px",""));
+                    if(s >3 && s*0.6>3){
+                     s*=0.6;
+                    }
+                t.style.fontSize = s+"px";
+            }
+       </script>
+</body>
+</html>

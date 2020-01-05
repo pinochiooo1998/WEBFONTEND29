@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex02</title>
+</head>
+<body>
+	<input  onclick="clickme()" id="click" type="text" value="clickme">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, natus rerum.</p>
+	<script type="text/javascript">
+		function clickme() {
+			var e = document.getElementById('click');
+			var type = e.type;
+			if (type=="text") {
+				e.type="button";
+			}
+			else{
+				e.type="text";
+			}
+		}
+		var p = document.getElementsByTagName('p')[0];
+		p.style.color = "red";
+		p.style.fontSize="20px";
+	</script>
+</body>
+</html>

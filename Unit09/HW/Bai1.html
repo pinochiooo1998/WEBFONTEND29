@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bai 1</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding:0px;
+		}
+		div.container {
+    width: 100%;  
+    margin: auto;  
+}
+.tab {
+    overflow: hidden; 
+    border: 1px solid #ccc; 
+    background-color: #f09c4f; 
+    width: 41.8%;
+
+}
+.tab button {
+    background-color: gray; 
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    
+    
+}
+.tab button:hover {
+    background-color: #ccc;
+
+}
+.tab button.active {
+    background-color: #fff;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #f09c4f;
+    width: 40%;
+}
+	</style>
+</head>
+<body>
+	<div class="tab">
+  <button class="tablinks active">PHP</button>
+  <button class="tablinks">HTML</button>
+  <button class="tablinks">CSS</button>
+</div>
+ 
+<div id="PHP" class="tabcontent">
+    <h3>Section 1</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sed beatae<br> molestias. Asperiores quaerat neque porro alias, saepe voluptatem similique<br> accusantium cumque? Aliquam magnam veniam, hic ad, commodi quis ab?
+    </p>
+</div>
+ 
+<div id="HTML" class="tabcontent">
+    <h3>Section 2</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae reprehenderit <br
+       >tempora amet unde inventore nisi, recusandae sequi expedita, aut corrupti,<br>officiis ipsam molestiae eveniet odio sunt impedit velit doloremque error.
+    </p> 
+</div>
+ 
+<div id="CSS" class="tabcontent">
+    <h3>Section 3</h3>
+    <p>
+    	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae reprehenderit<br> tempora amet unde inventore nisi, recusandae sequi expedita, aut corrupti,<br> officiis ipsam molestiae eveniet odio sunt impedit velit doloremque error.
+       </p>
+</div>
+      <script type="text/javascript">
+    var buttons = document.getElementsByClassName('tablinks');
+    var contents = document.getElementsByClassName('tabcontent');
+    function showContent(id){
+        for (var i = 0; i < contents.length; i++) {
+            contents[i].style.display = 'none';
+        }
+        var content = document.getElementById(id);
+        content.style.display = 'block';
+    }
+    for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("click", function(){
+            var id = this.textContent;
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove("active");
+            }
+            this.className += "active";
+            showContent(id);
+        });
+    }
+    showContent('PHP');
+</script>
+	
+</script>
+</body>
+</html>
